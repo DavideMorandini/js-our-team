@@ -4,7 +4,27 @@
     box-sizing: 0;
 }
 
-.container {
-    border: 1px solid black;
+#main-container {
+    flex-flow: row wrap;
 }
 
+#main-container .card {
+    border: 1px solid black;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1.25rem;
+}
+
+#main-container .card img {
+    width: 100%;
+}
+
+.member-name {
+    margin-top: 1.875rem;
+}
+
+.mansion {
+    font-size: 1rem;
+}
